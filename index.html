@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Matheus Ricardo - Desenvolvedor Front-end especializado em soluções web com IA">
+    <title>Matheus Ricardo | Desenvolvedor Front-end & IA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Navegação principal">
+            <div class="logo">
+                <!-- <img src="logo.svg" alt="Logo MR" width="50" height="50"> -->
+                <span>MR</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1>Matheus Ricardo</h1>
+            <p>Desenvolvedor Front-end especializado em soluções web com IA</p>
+            <a href="#projetos" class="cta-button">Ver Projetos</a>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <!-- <img src="./img/foto-de-perfil1.jpg" alt="Foto de Matheus Ricardo" class="profile-pic" width="300" height="400"> -->
+                <p>Sou um desenvolvedor front-end apaixonado por criar experiências web inovadoras e intuitivas. Com expertise em HTML, CSS, JavaScript, entre outras habilidades. Integro soluções de IA para otimizar o desenvolvimento e proporcionar resultados excepcionais. Meu objetivo é combinar design atraente com funcionalidade avançada para elevar cada projeto ao próximo nível.</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills-section">
+            <h2>Minhas Habilidades</h2>
+            <div class="skills-grid">
+                    <div class="skill">
+                        <i class="fas fa-robot" aria-hidden="true"></i>
+                        <p>Inteligência Artificial</p>
+                    </div>
+                <div class="skill">
+                    <i class="fab fa-html5" aria-hidden="true"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js" aria-hidden="true"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-python" aria-hidden="true"></i>
+                    <p>Python</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects-section">
+            <h2>Meus Projetos</h2>
+            <div class="project-cards">
+                <article class="project-card">
+                    <img src="/img/dashboard-ia-img.png" alt="Dashboard interativo com gráficos dinâmicos" width="300" height="300">
+                    <h3>Dashboard IA</h3>
+                    <p>Este projeto é uma dashboard interativa que utiliza Inteligência Artificial (IA) para prever vendas futuras com base em dados históricos. A aplicação foi desenvolvida usando HTML, CSS e JavaScript, com suporte a bibliotecas como Chart.js para visualização de dados e TensorFlow.js para previsão de vendas.</p>
+                    <a href="https://astermatheus.github.io/dashboard-ia/" target="_blank" class="project-link">Ver Projeto <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+                </article>
+                <article class="project-card">
+                    <img src="/img/taskmaster-pro-img.png" alt="Aplicativo web de gerenciamento de tarefas" width="300" height="300">
+                    <h3>TaskMaster Pro</h3>
+                    <p>AO TaskMaster Pro é uma aplicação web moderna e interativa para gerenciamento de tarefas. Desenvolvido com HTML, CSS (Tailwind CSS) e JavaScript, o aplicativo permite que os usuários criem, filtrem e gerenciem suas tarefas diárias de forma prática e eficiente. O design responsivo e o suporte para modo claro/escuro garantem uma experiência visual confortável em qualquer dispositivo.</p>
+                    <a href="https://astermatheus.github.io/taskmaster-pro/" target="_blank" class="project-link">Ver Projeto <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+                </article>
+                <article class="project-card">
+                    <img src="/img/ia-costumer-service-img.png" alt="Chatbot de atendimento ao cliente" width="300" height="300">
+                    <h3>AI Customer Service</h3>
+                    <p>Desenvolvi um chatbot de atendimento ao cliente interativo e responsivo, demonstrando minhas habilidades em desenvolvimento web front-end e integração básica de IA. Este projeto demonstra minha capacidade de criar aplicações web interativas, com foco em experiência do usuário e implementação de funcionalidades modernas.</p>
+                    <a href="https://astermatheus.github.io/ia-costumer-service/" target="_blank" class="project-link">Ver Projeto <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <h2>Contato</h2>
+            <form id="contact-form" action="https://formspree.io/f/xpwzzowk" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            
+            
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/matheus-ricardo-dev-ia/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/astermatheus" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:astermatheus9@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/astermatheus/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" class="back-to-top" aria-label="Voltar ao topo">&uarr;</a>
+
+    <footer>
+         <a href="mailto:astermatheus9@gmail.com">astermatheus9@gmail.com</a> <p>&copy; 2024 Matheus Ricardo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
